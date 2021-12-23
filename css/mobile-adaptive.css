@@ -1,0 +1,84 @@
+@media (max-width: 699px) {
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-top: 15px;
+        height: 80vw;
+    }
+    .idc-logo {
+        max-width: 27.5vw;
+    }
+    .idc-head .idc-title {
+        font-size: 5.1vw;
+        line-height: 7.2vw;
+        margin-top: 15px;
+    }
+    .idc-head .idc-subtitle {
+        font-size: 4.3vw;
+        line-height: 3.7vw;
+    }
+    /* ******about**** */
+    .idc-about .idc-container {
+        padding-top: 0;
+    }
+    .idc-about__text {
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-item__img {
+        width: 42px;
+        height: 42px;
+    }
+    .idc-item__img img {
+        height: 100%;
+    }
+    .idc-item__text {
+        margin-top: 5px;
+    }
+    .idc-items-block {
+        margin: 20px 0 0;
+        width: 100%;
+    }
+    .idc-item {
+        padding: 0 10px;
+        width: 50%;
+        margin-top: 20px;
+    }
+    .idc-item:nth-child(4) .idc-item__text,
+    .idc-item:last-child .idc-item__text {
+        margin: 5px -6px;
+        max-width: none;
+    }
+    /* ******info**** */
+    .idc-info p>strong {
+        line-height: 110%;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        padding-left: 18px;
+    }
+    /* ******video**** */
+    .idc-video .idc-container {
+        padding-bottom: 15px;
+    }
+    .idc-video-content {
+        height: 51.6vw;
+    }
+    /* ******footer*** */
+    .idc-footer .idc-title {
+        font-size: 5vw;
+        line-height: 158.03%;
+    }
+    .idc-footer .idc-container {
+        height: 48.1vw;
+    }
+    .idc-title-img {
+        width: 10vw;
+    }
+}
